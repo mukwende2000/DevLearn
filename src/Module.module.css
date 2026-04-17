@@ -1,0 +1,29 @@
+.module {
+    width: 25%;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: white;
+    line-height: 1.3;
+}
+
+.module button {
+    width: 100%;
+    margin-top: 30px;
+    color: blue;
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.initials {
+    width: 50px;
+    margin-bottom: 40px;
+    font-size: .7rem;
+    color: blue;
+    text-align: center;
+    padding: 20px 0;
+    border-radius: 5px;
+    background-color: rgb(194, 194, 236);
+}
