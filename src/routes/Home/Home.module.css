@@ -1,48 +1,4 @@
 @media (min-width: 1200px) {
-    .container {
-        width: 1200px;
-        margin: 0 auto;
-    }
-
-    .header {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-
-    .mainNav a {
-        color: gray;
-    }
-
-    .active {
-        position: relative;
-    }
-
-    .active a {
-        color: blue;
-        position: relative;
-    }
-
-
-    .active::after {
-        content: "";
-
-        height: 3px;
-        position: absolute;
-        right: 0;
-        left: 0;
-        top: 25px;
-        display: block;
-        background-color: blue;
-    }
-
-    .mainNav,
-    .secondaryNav {
-        display: flex;
-        align-items: center;
-        gap: 26px;
-    }
-
     .hero {
         text-align: center;
         margin-top: 100px;
@@ -54,6 +10,8 @@
     }
 
     .hero h1 {
+        font-family: "Manrope", sans-serif;
+        font-weight: var(--font-weight-bold);
         text-transform: capitalize;
         font-size: 3rem;
     }
@@ -118,5 +76,6 @@
     .copyright {
         display: block;
         text-align: center;
+        font-size: .7rem;
     }
 }

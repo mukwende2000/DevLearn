@@ -1,8 +1,29 @@
+:root {
+  /* Colors */
+  --color-primary: #0066cc;
+  --color-secondary: #455a64;
+  --color-tertiary: #767491;
+  --color-neutral: #f8f9fa;
+
+  /* Fonts */
+  --font-base: "Inter", sans-serif;
+  --font-headline: "Manrope", sans-serif;
+
+  --font-weight-light: 300;
+  --font-weight-regular: 500;
+  --font-weight-bold: 900;
+
+  --font-size-sm: 0.825rem;
+  --font-size-md: 1rem;
+  --font-size-lg: 2rem;
+  --font-size-xl: 3rem;
+}
+
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: sans-serif;
+  font-family: var(--font-base);
   background-color: rgb(231, 231, 231);
 }
 
