@@ -1,43 +1,7 @@
 @media (min-width: 1200px) {
     .container {
         width: 1200px;
-        margin: 0 auto;
+        margin: 50px auto 0;
+        /* margin: 50px 0; */
     }
-
-
-    .header {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-
-    .mainNav a {
-        color: gray;
-    }
-
-    .active {
-        color: blue;
-        position: relative;
-    }
-
-
-    .active::after {
-        content: "";
-
-        height: 3px;
-        position: absolute;
-        right: 0;
-        left: 0;
-        top: 25px;
-        display: block;
-        background-color: blue;
-    }
-
-    .mainNav,
-    .secondaryNav {
-        display: flex;
-        align-items: center;
-        gap: 26px;
-    }
-
 }

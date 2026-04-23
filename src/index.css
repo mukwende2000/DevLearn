@@ -1,3 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scrollbar-gutter: stable;
+}
+
 :root {
   /* Colors */
   --color-primary: #0066cc;
@@ -20,9 +27,6 @@
 }
 
 body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
   font-family: var(--font-base);
   background-color: rgb(231, 231, 231);
 }

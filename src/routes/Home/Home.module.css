@@ -54,9 +54,9 @@
     }
 
     .footer {
-        padding-block: 20px;
-        margin-block: 50px;
-        line-height: 0.1;
+        padding: 20px;
+        margin-top: 50px;
+        background-color: var(--color-secondary);
     }
 
     .tag {
