@@ -10,6 +10,7 @@
   --color-primary: #0066cc;
   --color-secondary: #455a64;
   --color-tertiary: #767491;
+  --color-light: #c0bed3;
   --color-neutral: #f8f9fa;
 
   /* Fonts */
@@ -31,6 +32,10 @@ body {
   background-color: rgb(231, 231, 231);
 }
 
+h1 {
+  font-family: var(--font-headline);
+}
+
 li {
   list-style: none;
 }
@@ -43,4 +48,9 @@ a {
 button {
   border: none;
   cursor: pointer;
+}
+
+p {
+  color: var(--color-secondary);
+  font-size: 1.1rem;
 }

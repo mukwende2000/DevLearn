@@ -10,7 +10,6 @@
     }
 
     .hero h1 {
-        font-family: "Manrope", sans-serif;
         font-weight: var(--font-weight-bold);
         text-transform: capitalize;
         font-size: 3rem;
@@ -24,24 +23,10 @@
         margin-block: 26px;
     }
 
-    .btns button,
-    .actionBtn {
-        border-radius: 10px;
-        padding: 20px;
-        width: 170px;
-        font-size: 1rem;
-    }
-
-    .learnBtn,
-    .actionBtn {
-        margin-right: 20px;
-        color: white;
-        background-color: blue;
-    }
-
-    .curriculumBtn {
-        color: blue;
-        background-color: rgb(223, 221, 221);
+    .btns {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
     }
 
     .modules {

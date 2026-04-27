@@ -1,5 +1,6 @@
 import { NavLink } from 'react-router-dom'
 import styles from './Header.module.css'
+import Button from '../Button/Button'
 
 
 function Header() {
@@ -19,10 +20,14 @@ function Header() {
             <nav>
                 <ul className={styles.secondaryNav}>
                     <li>
-                        <a href="">Sign in</a>
+                        <a href=''>Sign in</a>
                     </li>
                     <li>
-                        <button className={styles.actionBtn}>Get started</button>
+                        <a href="">
+                            <Button bgColor='var(--color-primary)' color='var(--color-neutral)'>
+                                get started
+                            </Button>
+                        </a>
                     </li>
                 </ul>
             </nav>

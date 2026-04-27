@@ -3,6 +3,7 @@ import styles from './Home.module.css'
 import Module from './components/Module'
 import { modules } from '../../data'
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter'
+import Button from '../../component/Button/Button'
 
 function Home() {
     return (
@@ -16,8 +17,8 @@ function Home() {
                     Master the art of code through architecturally structured guidance.
                 </p>
                 <div className={styles.btns}>
-                    <button className={styles.learnBtn}>Start Learning</button>
-                    <button className={styles.curriculumBtn}>View Curriculum</button>
+                    <Button bgColor='var(--color-primary)' color='var(--color-neutral)'>Start Learning</Button>
+                    <Button bgColor='var(--color-light)' color='var(--color-primary)'>View Curriculum</Button>
                 </div>
             </section>
 
