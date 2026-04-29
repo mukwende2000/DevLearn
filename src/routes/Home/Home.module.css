@@ -38,29 +38,4 @@
         margin-block: 200px;
     }
 
-    .footer {
-        padding: 20px;
-        margin-top: 50px;
-        background-color: var(--color-secondary);
-    }
-
-    .tag {
-        font-size: .8rem;
-    }
-
-    .footerLinks {
-        display: flex;
-        justify-content: space-between;
-    }
-
-    .footerLinks ul {
-        display: flex;
-        gap: 16px;
-    }
-
-    .copyright {
-        display: block;
-        text-align: center;
-        font-size: .7rem;
-    }
 }

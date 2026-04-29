@@ -55,30 +55,6 @@ function Home() {
 
 
             </section>
-            <footer className={styles.footer}>
-                <div className={styles.footerLinks}>
-                    <div>
-                        <p>DevLearn</p>
-                        <p className={styles.tag}>BUILT FOR BEGINNER DEVELOPERS</p>
-                    </div>
-
-                    <ul>
-                        <li>
-                            <a href="">About</a>
-                        </li>
-
-                        <li>
-                            <a href="">Lessons</a>
-                        </li>
-                    </ul>
-                </div>
-
-                <div>
-                    <small className={styles.copyright}>
-                        @ 2024 DEVLEARN. BUILT FOR ARCHITECTS OF CODE
-                    </small>
-                </div>
-            </footer>
         </main>
 
     )
