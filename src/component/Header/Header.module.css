@@ -1,13 +1,14 @@
 @media (min-width: 1200px) {
-    .mainNav a {
-        color: gray;
-    }
+    .mainNav {
+        a {
+            color: var(--color-tertiary);
+        }
 
-    .active {
-        color: blue;
-        position: relative;
+        .active {
+            color: var(--color-primary);
+            position: relative;
+        }
     }
-
 
     .active::after {
         content: "";

@@ -1,21 +1,22 @@
   .footer {
       padding: 20px;
       margin-block: 50px;
+
+      .footerLinks {
+          display: flex;
+          justify-content: space-between;
+
+          ul {
+              display: flex;
+              gap: 16px;
+          }
+      }
   }
 
   .tag {
       font-size: .8rem;
   }
 
-  .footerLinks {
-      display: flex;
-      justify-content: space-between;
-  }
-
-  .footerLinks ul {
-      display: flex;
-      gap: 16px;
-  }
 
   .copyright {
       display: block;

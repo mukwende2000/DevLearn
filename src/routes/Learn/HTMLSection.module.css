@@ -1,0 +1,30 @@
+.HTMLSection {
+    margin-top: 70px;
+    display: flex;
+    gap: 30px;
+
+    p {
+        margin-block: 30px;
+    }
+
+    .foundations {
+        flex-basis: 50%;
+    }
+
+    .coreTopics {
+        flex-basis: 60%;
+        display: grid;
+        align-items: center;
+        grid-template-columns: 1fr 1fr;
+        background-color: var(--color-light);
+        border-radius: 10px;
+        padding: 20px 40px;
+    }
+}
+
+
+
+.coreTopics li {
+    list-style-type: disc;
+    margin-block: 20px;
+}

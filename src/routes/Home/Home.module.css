@@ -2,40 +2,45 @@
     .hero {
         text-align: center;
         margin-top: 100px;
-    }
 
-    .hero span {
-        color: blue;
-        text-transform: uppercase;
-    }
+        span {
+            color: var(--color-primary);
+            text-transform: uppercase;
+        }
 
-    .hero h1 {
-        font-weight: var(--font-weight-bold);
-        text-transform: capitalize;
-        font-size: 3rem;
+        h1 {
+            font-weight: var(--font-weight-bold);
+            text-transform: capitalize;
+            font-size: 3rem;
+        }
+
+        p {
+            margin-block: 26px;
+        }
+
+        .btns {
+            display: inline-flex;
+            gap: 20px;
+        }
     }
 
     .hero h1 span {
         text-transform: capitalize;
     }
 
-    .hero p {
-        margin-block: 26px;
-    }
-
-    .btns {
-        display: flex;
-        justify-content: center;
-        gap: 20px;
-    }
-
-    .modules {
-        display: flex;
-        justify-content: space-between;
-    }
 
     .moduleSection {
         margin-block: 200px;
+
+        .modules {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        p {
+            margin-block: 20px;
+        }
     }
 
 }

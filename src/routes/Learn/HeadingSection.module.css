@@ -1,0 +1,14 @@
+.headingSection {
+    margin-top: 70px;
+
+    .headline {
+        text-transform: capitalize;
+        font-size: 3rem;
+        font-weight: 900;
+    }
+
+    .headingSection>p {
+        margin-top: 20px;
+        line-height: 1.5;
+    }
+}
