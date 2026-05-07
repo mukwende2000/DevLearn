@@ -13,7 +13,7 @@ function Home() {
                 <span>future-proof your skills</span>
                 <h1>learn programming <span>simply</span></h1>
                 <p>
-                    Step-by-step lessons for beginners. No confusion. Just Clarity.<br />
+                    Step-by-step lessons for beginners. No confusion. Just Clarity.
                     Master the art of code through architecturally structured guidance.
                 </p>
                 <div className={styles.btns}>
